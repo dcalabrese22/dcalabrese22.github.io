@@ -1,2 +1,4 @@
 name: Dan Calabrese
 markdown: kramdown
+
+theme: jekyll-theme-minimal
