@@ -3,14 +3,18 @@ body {
 }
 
 ul.topnav {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border: 2px solid #888888;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+    display: inline-block;
+}
 
 ul.topnav li > a {
     display: block;
