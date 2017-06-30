@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 ul.topnav {
@@ -107,7 +107,7 @@ img.bikeImage {
     transition: 0.3s;
     width: 40%;
     margin: 20px;
-    height: 100%;
+    height: 300px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -115,9 +115,26 @@ img.bikeImage {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+p.app-desc-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+table.app-images {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+table.app-images:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 600px){
