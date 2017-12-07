@@ -77,6 +77,11 @@ div.wrapper {
     margin: auto;
 }
 
+.cardWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
 div.personalInfo img {
     width: 64px;
     height: 64px;
